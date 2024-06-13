@@ -1,0 +1,2180 @@
+[
+  {
+    "MathParagraphs": [
+      {
+        "Index": 2,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 5,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "ABCD.A^{\u0027}B^{\u0027}C^{\u0027}D^{\u0027}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "ABCD"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "A^{\u0027}C"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(ABCD)"
+          }
+        ]
+      },
+      {
+        "Index": 3,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\widehat{A^{\u0027}AD}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\widehat{CA^{\u0027}A}"
+          }
+        ]
+      },
+      {
+        "Index": 4,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\widehat{A^{\u0027}CA}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\widehat{A^{\u0027}CC^{\u0027}}"
+          }
+        ]
+      },
+      {
+        "Index": 9,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\u03B1"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "a"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "b"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\u03B1"
+          }
+        ]
+      },
+      {
+        "Index": 10,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 6,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "0^{0}\u2264\u03B1\u226490^{0}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 6,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "0^{0}\u2264\u03B1\u2264180^{0}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "0^{0}\u003C\u03B1\u003C90^{0}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "0^{0}\u003C\u03B1\u003C180^{0}"
+          }
+        ]
+      },
+      {
+        "Index": 11,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "a"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "a^{\\frac{2}{3}}\\sqrt[]{a}"
+          }
+        ]
+      },
+      {
+        "Index": 12,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "a^{\\frac{5}{6}}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "a^{\\frac{11}{6}}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "a^{\\frac{6}{5}}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "a^{\\frac{7}{6}}"
+          }
+        ]
+      },
+      {
+        "Index": 13,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(a-1)^{\\frac{-3}{4}}\u003E(a-1)^{\\frac{-4}{5}}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\sqrt[]{b^{3}}\u003E\\sqrt[3]{b^{2}}"
+          }
+        ]
+      },
+      {
+        "Index": 14,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "a\u003E2;b\u003E1"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "a;b\u003E1"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "0\u003Ca\u003C2;b\u003C1"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "0\u003Ca\u003C2;b\u003E1"
+          }
+        ]
+      },
+      {
+        "Index": 15,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 4,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "SA\u22A5(ABC),SC=a\\sqrt[]{74}"
+          }
+        ]
+      },
+      {
+        "Index": 17,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y=2024^{x}"
+          }
+        ]
+      },
+      {
+        "Index": 18,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y^{\u0027}=\\frac{2024^{x}}{024}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 6,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y^{\u0027}=2024^{x}.024"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 4,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y\u0027=2024^{x}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y^{\u0027}=x.2024^{x}"
+          }
+        ]
+      },
+      {
+        "Index": 19,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "A,B"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "P(A)=\\frac{1}{3}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "P(AB)=\\frac{1}{7}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "P(B)"
+          }
+        ]
+      },
+      {
+        "Index": 20,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\frac{1}{21}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\frac{10}{21}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\frac{3}{7}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\frac{4}{21}"
+          }
+        ]
+      },
+      {
+        "Index": 21,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 4,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y=x^{2}-5x\u002B2"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(C)"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "1"
+          }
+        ]
+      },
+      {
+        "Index": 22,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "-3"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "2"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "-2"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "3"
+          }
+        ]
+      },
+      {
+        "Index": 24,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y=3^{x}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y="
+          }
+        ]
+      },
+      {
+        "Index": 25,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y=(\\frac{1}{3})^{x}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y="
+          }
+        ]
+      },
+      {
+        "Index": 31,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y=f(x)"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "x_{0}"
+          }
+        ]
+      },
+      {
+        "Index": 32,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 6,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "f^{\u0027}(\\frac{x}{y}\u002B3 )\\\u2329x\u002B4\\\u232A=\\lim_{x\u2192x_{0}}\\frac{f(x)-f(x_{0})}{x\u002Bx_{0}}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 5,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "f^{\u0027}(x_{0})=\\lim_{x\u2192x_{0}}\\frac{f(x)\u002Bf(x_{0})}{x-x_{0}}"
+          }
+        ]
+      },
+      {
+        "Index": 33,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 5,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "f^{\u0027}(x_{0})=\\lim_{x\u2192x_{0}}\\frac{f(x)\u002Bf(x_{0})}{x\u002Bx_{0}}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 5,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "f^{\u0027}(x_{0})=\\lim_{x\u2192x_{0}}\\frac{f(x)-f(x_{0})}{x-x_{0}}"
+          }
+        ]
+      },
+      {
+        "Index": 34,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 9,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "P(A)=\\frac{1}{3},P(B)=\\frac{1}{4}."
+          },
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "P(A\u222AB)"
+          }
+        ]
+      },
+      {
+        "Index": 35,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\frac{1}{12}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\frac{1}{7}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\frac{7}{12}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\frac{1}{2}"
+          }
+        ]
+      },
+      {
+        "Index": 37,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "A"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "B"
+          }
+        ]
+      },
+      {
+        "Index": 38,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\widehat{A}\u222A\\widehat{B}"
+          }
+        ]
+      },
+      {
+        "Index": 39,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 5,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\widehat{A}B\u222AA\\widehat{B}"
+          }
+        ]
+      },
+      {
+        "Index": 40,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "n(A\u222AB)=462"
+          }
+        ]
+      },
+      {
+        "Index": 41,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "n(AB\u222A\\widehat{A}\\widehat{B})=768"
+          }
+        ]
+      },
+      {
+        "Index": 42,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(\\frac{1}{6})^{x\u002B2}\u2264(\\frac{1}{36})^{-x}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "S=\\a;b\\)"
+          }
+        ]
+      },
+      {
+        "Index": 43,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 4,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\lim_{x\u2192a}(3x^{2}\u002B2)=\\frac{10}{3}"
+          }
+        ]
+      },
+      {
+        "Index": 44,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "6^{-}\u22646^{-}"
+          }
+        ]
+      },
+      {
+        "Index": 45,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 5,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\a;b\\)\\(3;\u002B\u221E)=[-\\frac{2}{3};3]"
+          }
+        ]
+      },
+      {
+        "Index": 46,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\lim_{x\u2192\u002B\u221E}x^{2}=b"
+          }
+        ]
+      },
+      {
+        "Index": 47,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "1,2,3"
+          }
+        ]
+      },
+      {
+        "Index": 48,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "A"
+          }
+        ]
+      },
+      {
+        "Index": 49,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "B"
+          }
+        ]
+      },
+      {
+        "Index": 50,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "n(A)=7"
+          }
+        ]
+      },
+      {
+        "Index": 51,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 4,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "A\u2229B=\\{(2,2,2)\\}"
+          }
+        ]
+      },
+      {
+        "Index": 52,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "A,B"
+          }
+        ]
+      },
+      {
+        "Index": 53,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "n(B)=3"
+          }
+        ]
+      },
+      {
+        "Index": 55,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "100"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "3"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "7"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "a"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "a"
+          }
+        ]
+      },
+      {
+        "Index": 56,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(\\frac{1}{2})^{x}\u2265(0,25)^{x}"
+          }
+        ]
+      },
+      {
+        "Index": 57,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "S.ABCD"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "ABCD"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "a"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "SA=3a"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "SA"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(ABCD)"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\u03B1"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "CD"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": ""
+          }
+        ]
+      },
+      {
+        "Index": 58,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "18%"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "40%"
+          }
+        ]
+      },
+      {
+        "Index": 60,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y=x^{2}-2x\u002B3"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(C)"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(C)"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "k=4"
+          }
+        ]
+      },
+      {
+        "Index": 61,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "S.ABCD"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "ABCD"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "1"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "SA=\\sqrt[]{3}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "SA"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(ABCD)"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "B"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(SCD)"
+          }
+        ]
+      },
+      {
+        "Index": 107,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y=x^{2}-2x\u002B3"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(C)"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(C)"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "k=4"
+          }
+        ]
+      },
+      {
+        "Index": 109,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "D=R"
+          }
+        ]
+      },
+      {
+        "Index": 110,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 4,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y^{\u0027}=2x-2"
+          }
+        ]
+      },
+      {
+        "Index": 111,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "k=4"
+          }
+        ]
+      },
+      {
+        "Index": 112,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 8,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y^{\u0027}=k\u21D42x-2=4\u21D4x=3"
+          }
+        ]
+      },
+      {
+        "Index": 113,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "M(3;6)"
+          }
+        ]
+      },
+      {
+        "Index": 114,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 7,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "y=4(x-3)\u002B6\u21D4y=4x-6"
+          }
+        ]
+      },
+      {
+        "Index": 115,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "S.ABCD"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "ABCD"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "1"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "SA=\\sqrt[]{3}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "SA"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(ABCD)"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "B"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(SCD)"
+          }
+        ]
+      },
+      {
+        "Index": 118,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 10,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\{\\\u21D2BC\u22A5(SAB)\u21D2(SAB)\u22A5(SBC)."
+          }
+        ]
+      },
+      {
+        "Index": 119,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 11,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "AH\u22A5SD\u21D2AH\u22A5(SCD)\u21D2d(A;(SCD))=AH."
+          }
+        ]
+      },
+      {
+        "Index": 120,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\u0394SAD"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 10,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "A:\\frac{1}{AH^{2}}=\\frac{1}{AS^{2}}\u002B\\frac{1}{AD^{2}}\u21D2AH=\\frac{\\sqrt[]{3}}{2}."
+          }
+        ]
+      },
+      {
+        "Index": 121,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "AB\u2044\u2044CD"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 7,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "d(B;(SCD))=d(A;(SCD))=\\frac{\\sqrt[]{3}}{2}."
+          }
+        ]
+      },
+      {
+        "Index": 146,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 5,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "ABCD.A^{\u0027}B^{\u0027}C^{\u0027}D^{\u0027}"
+          }
+        ]
+      },
+      {
+        "Index": 147,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "A^{\u0027}C"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(ABCD)"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\widehat{A\u0027CA}"
+          }
+        ]
+      },
+      {
+        "Index": 158,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 3,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\\widehat{A}\u222A\\widehat{B}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "C"
+          }
+        ]
+      },
+      {
+        "Index": 162,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 4,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "C=AB\u222A\\widehat{A}B\u222AA\\widehat{B}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 7,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "n(AB\u222A\\widehat{A}\\widehat{B})=n(AB)\u002Bn(\\widehat{A}\\widehat{B})=22.21\u002B18.17=768"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 10,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "n(A\u222AB)=n(\u03A9)-n(\\widehat{A}\\widehat{B})=40.39-18.17=1254"
+          }
+        ]
+      },
+      {
+        "Index": 167,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 5,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "A=\\{(1,2,3);(2,1,3);(3,1,2);(1,3,2);(3,2,1);(2,3,1);(2,2,2)\\},n(A)=7"
+          }
+        ]
+      },
+      {
+        "Index": 168,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 5,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "B=\\{(1,1,1);(2,2,2);(3,3,3)\\},n(B)=3"
+          }
+        ]
+      },
+      {
+        "Index": 169,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 2,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "A\u2229B=\\{(2,2,2)\\}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 5,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "\u03A9=\\{(a,b,c):1\u2264a,b,c\u22643\\},n(\u03A9)=27"
+          }
+        ]
+      },
+      {
+        "Index": 170,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 4,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "P(A)=\\frac{7}{27}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 4,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "P(B)=\\frac{3}{27}"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 4,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "P(AB)=\\frac{1}{27}"
+          }
+        ]
+      },
+      {
+        "Index": 171,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 16,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "P(AB)=\\frac{1}{27}=\\frac{27}{27^{2}}\u2260\\frac{21}{27^{2}}=\\frac{7}{27}\u22C5\\frac{3}{27}=P(A)\u22C5P(B)"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "A"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "B"
+          }
+        ]
+      },
+      {
+        "Index": 177,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 6,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "T=A(1\u002Br)^{n}=100(1\u002B0,03)^{7}\u2248123"
+          }
+        ]
+      },
+      {
+        "Index": 178,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "7"
+          },
+          {
+            "MathBaseColl": {
+              "Count": 1,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "123"
+          }
+        ]
+      },
+      {
+        "Index": 181,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 12,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "(\\frac{1}{2})^{x-1}\u2265(0,25)^{x-3}\u21D4(\\frac{1}{2})^{x-1}\u2265(\\frac{1}{2})^{2x-6}\u21D4x-1\u22642x-6\u21D4x\u22655"
+          }
+        ]
+      },
+      {
+        "Index": 187,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 5,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "AB//CD\u21D2(SB,CD)=(SB,AB)=\\widehat{SBA}=\u03B1"
+          }
+        ]
+      },
+      {
+        "Index": 188,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 6,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "=\\frac{SA}{AB}=\\frac{3a}{a}=3"
+          }
+        ]
+      },
+      {
+        "Index": 193,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 7,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "P(A)=18% ; P(B)=40%"
+          }
+        ]
+      },
+      {
+        "Index": 194,
+        "MathPatts": [
+          {
+            "MathBaseColl": {
+              "Count": 12,
+              "OwnerMathEntity": {
+                "OwnerMathEntity": {
+                  "OwnerMathEntity": null
+                }
+              }
+            },
+            "LatextPattern": "P(A\u222AB)=P(A)\u002BP(B)-P(A)P(B)=0,51"
+          }
+        ]
+      }
+    ]
+  }
+]
