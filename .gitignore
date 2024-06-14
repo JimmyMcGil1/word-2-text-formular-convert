@@ -6,5 +6,3 @@ obj/
 *.docx
 *.docx
 ClientApp/src/app/services/file.service.ts
-*.docx
-*.txt
