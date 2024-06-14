@@ -1,4 +1,5 @@
 ﻿using DocumentFormat.OpenXml.Math;
+using DocumentFormat.OpenXml.VariantTypes;
 using DocumentFormat.OpenXml.Wordprocessing;
 using MathEquationWord2Latex.Model;
 using Newtonsoft.Json.Serialization;
@@ -7,6 +8,7 @@ using Syncfusion.DocIO.DLS;
 using Syncfusion.Office;
 using System.Text;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 namespace MathEquationWord2Latex
 {
     public class Utils
@@ -27,10 +29,10 @@ namespace MathEquationWord2Latex
                 for (int i = 0; i < document.Sections.Count; i++)
                 {
                     var currSec = document.Sections[i];
-                    MathSection currMathSec = new MathSection();
-                    for (int j = 0; j < currSec.Body.ChildEntities.Count; j++)
+                    MathSection currMathSec = new MathSection(i);
+                    for (int j = 0; j < currSec.Body.Paragraphs.Count; j++)
                     {
-                        var currPara = currSec.Body.ChildEntities[j] as WParagraph;
+                        var currPara = currSec.Body.Paragraphs[j] as WParagraph;
                         if (currPara != null)
                         {
                             var text = currPara.Text;
@@ -73,11 +75,15 @@ namespace MathEquationWord2Latex
         }
         public static string ConvertMathLexical(IOfficeMathEntity math)
         {
-            Console.WriteLine(math.GetType());
+            //Console.WriteLine(math.GetType());
             if (math is IOfficeMathRunElement mathRunElement)
             {
                 var runItemText = mathRunElement.Item as WTextRange;
-                return runItemText.Text;
+                if (runItemText != null)
+                {
+                    return runItemText.Text;
+                }
+                return "";
             }
             if (math is IOfficeMathFraction mathFrac)
             {
@@ -109,6 +115,20 @@ namespace MathEquationWord2Latex
             //}
             return "";
         }
+        public static void ConvertDocument(List<MathSection> mathSections)
+        {
+            foreach (var mathSec in mathSections)
+            {
+                foreach (var mathPara in mathSec.MathParagraphs)
+                {
+                    foreach (var mathPattern in mathPara.MathPatts)
+                    {
+                        mathPattern.LatextPattern = ConvertMathPattern(mathPattern);
+                    }
+                }
+            }
+        }
+
         public static string ConvertFraction(IOfficeMathFraction frac)
         {
             StringBuilder strbuilder = new StringBuilder();
@@ -193,7 +213,7 @@ namespace MathEquationWord2Latex
                 if (paraItem is WMath)
                 {
                     var mathFormular = paraItem as WMath;
-                    entities.Add(new MathPattern(mathFormular.MathParagraph.Maths[0].Functions));
+                    entities.Add(new MathPattern(mathFormular.MathParagraph.Maths[0].Functions, i));
                 }
 
             }
@@ -244,16 +264,8 @@ namespace MathEquationWord2Latex
                 mathSections.AddRange(Utils.ReadFormula(document));
                 StringBuilder strBuilder = new StringBuilder();
 
-                foreach (var mathSec in mathSections)
-                {
-                    foreach (var mathPara in mathSec.MathParagraphs)
-                    {
-                        foreach (var mathPattern in mathPara.MathPatts)
-                        {
-                            mathPattern.LatextPattern = Utils.ConvertMathPattern(mathPattern);
-                        }
-                    }
-                }
+                ConvertDocument(mathSections);
+
                 int currSec = 0;
                 using (StreamWriter writter = new StreamWriter(outputFilePath))
                 {
@@ -266,7 +278,7 @@ namespace MathEquationWord2Latex
                             writter.WriteLine($"    [+]Current paragrapth:{mathPara.Index}");
                             foreach (var mathPattern in mathPara.MathPatts)
                             {
-                                writter.WriteLine($"         [-]Converted latex math pattern:{mathPattern.LatextPattern}");
+                                writter.WriteLine($"         [-]Converted latex math pattern[{mathPattern.Index}]:{mathPattern.LatextPattern}");
                             }
                         }
                     }
@@ -283,34 +295,50 @@ namespace MathEquationWord2Latex
             }
 
         }
-        public static void ProcessToJson(string inputFilePath, string outputFilePath)
+        public static string ExtractRawText(WordDocument document, MathSection[] mathSections)
         {
-            WordDocument document = Utils.GetDocument(inputFilePath);
-            try
+            Console.WriteLine("Math section 0 para lenght:" + mathSections[0].MathParagraphs.Count);
+            for (int i = 0; i < mathSections.Length; i++)
             {
-                List<MathSection> mathSections = new List<MathSection>();
-                mathSections.AddRange(Utils.ReadFormula(document));
-                StringBuilder strBuilder = new StringBuilder();
-
-                foreach (var mathSec in mathSections)
+                var currSecDoc = document.Sections[i];
+                if (currSecDoc == null) continue;
+                var currSec = mathSections[i];
+                for (int j = 0; j < currSec.MathParagraphs.Count; j++)
                 {
-                    foreach (var mathPara in mathSec.MathParagraphs)
+                    var currPara = currSec.MathParagraphs[j];
+                    var currParaDoc = currSecDoc.Body.Paragraphs[currPara.Index];
+                    if (currParaDoc == null) continue;
+                    for (int k = 0; k < currPara.MathPatts.Count; k++)
                     {
-                        foreach (var mathPattern in mathPara.MathPatts)
+                        var currPatt = currPara.MathPatts[k];
+                        currParaDoc.ChildEntities.RemoveAt(currPatt.Index);
+                        var textRange = new WTextRange(currParaDoc.Document);
+                        textRange.Text =$"\\({currPatt.LatextPattern}\\)";
+                        currParaDoc.ChildEntities.Insert(currPatt.Index, textRange);
+                    }
+                }
+            }
+            return document.Document.GetText();
+            //return fullText.ToString();
+        }
+        public static void ScanMathBlockInDocument(WordDocument document)
+        {
+            for (int i = 0; i < document.Sections.Count; i++)
+            {
+                for (int j = 0; j < document.Sections[i].Paragraphs.Count; j++)
+                {
+                    var currPara = document.Sections[i].Paragraphs[j];
+                    for (int k = 0; k < currPara.ChildEntities.Count; k++)
+                    {
+                        var currChild = currPara.ChildEntities[k];
+                        if (currChild is WMath)
                         {
-                            mathPattern.LatextPattern = Utils.ConvertMathPattern(mathPattern);
+                            Console.WriteLine($"Math block at section[{i}, paragraph[{j}], position {k} ]]");
                         }
                     }
                 }
-                var options = new JsonSerializerOptions() { WriteIndented = true};
-                var jsonString = JsonSerializer.Serialize(mathSections, options);
-                File.WriteAllText(outputFilePath, jsonString);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Get exception:" + e.Message);
-                throw;
             }
         }
     }
+
 }

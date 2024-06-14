@@ -11,10 +11,12 @@ namespace MathEquationWord2Latex.Model
     {
         public IOfficeMathBaseCollection MathBaseColl { get; set; }
         public string LatextPattern { get; set; }
-        public MathPattern(IOfficeMathBaseCollection baseColl)
+        public int Index { get; set; }
+        public MathPattern(IOfficeMathBaseCollection baseColl, int index)
         {
             MathBaseColl = baseColl;
             LatextPattern = "";
+            this.Index = index;
         }
     }
 }

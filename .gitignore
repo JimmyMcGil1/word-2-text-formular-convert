@@ -1,3 +1,10 @@
 .vs/
 bin/
 obj/
+/ClientApp
+/ClientApp/public
+*.docx
+*.docx
+ClientApp/src/app/services/file.service.ts
+*.docx
+*.txt

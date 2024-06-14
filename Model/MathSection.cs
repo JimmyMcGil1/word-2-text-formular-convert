@@ -9,14 +9,12 @@ namespace MathEquationWord2Latex.Model
     public class MathSection
     {
         public List<MathParagraph> MathParagraphs { get; set; }
-        public MathSection()
+        public int Index { get; set; }
+        public MathSection(int index)
         {
             MathParagraphs = new List<MathParagraph>();
+            Index = index;
         }
-        public MathSection(MathParagraph[] mParagraphs)
-        {
-            MathParagraphs = new List<MathParagraph>();
-            MathParagraphs.AddRange(mParagraphs);
-        }
+        
     }
 }
